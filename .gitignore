@@ -1,0 +1,30 @@
+# gradle
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+*.launch
+
+# idea
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# vscode
+.classpath
+.project
+.settings/
+.vscode/
+bin/
+.factorypath
+
+# macos
+*.DS_Store
+
+# vscode
+.history/
+.vscode/settings.json
+.vscode/tasks.json

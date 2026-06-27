@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "windcharge-autotrigger",
+  "version": "${version}",
+  "name": "Wind Charge Auto Trigger",
+  "description": "Auto-throws Wind Charge at low-health enemies when crosshair is on them. Trigger-bot style with customizable delay and hotkey.",
+  "authors": ["reinazizzy-lang"],
+  "contact": {
+    "homepage": "https://github.com/reinazizzy-lang/windcharge-autotrigger",
+    "sources": "https://github.com/reinazizzy-lang/windcharge-autotrigger"
+  },
+  "license": "MIT",
+  "icon": "assets/windcharge/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.windcharge.WindChargeAutoTrigger"
+    ],
+    "client": [
+      "com.windcharge.client.WindChargeClientInitializer"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.x",
+    "java": ">=21"
+  }
+}

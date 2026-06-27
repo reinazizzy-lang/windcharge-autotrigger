@@ -1,0 +1,7 @@
+{
+  "mod.windcharge.title": "Wind Charge Auto Trigger",
+  "mod.windcharge.description": "Auto-throws Wind Charge at low-health enemies",
+  "mod.windcharge.toggle": "Toggle Wind Charge Auto Trigger",
+  "mod.windcharge.status.enabled": "Wind Charge Auto Trigger §aENABLED§r",
+  "mod.windcharge.status.disabled": "Wind Charge Auto Trigger §cDISABLED§r"
+}
